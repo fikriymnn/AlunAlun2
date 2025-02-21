@@ -142,10 +142,9 @@ public class GameManager : MonoBehaviour
     {
         answer = inputField.text.ToLower();
         bool benar = "pakaian olahraga".Contains(answer);
-        bool benar2 = "pakaian olah raga".Contains(answer);
         bool benar3 = "baju olahraga".Contains(answer);
         bool benar4 = "olahraga".Contains(answer);
-        if (benar || benar2 || benar3 || benar4)
+        if (benar || benar3 || benar4)
         {
             Debug.Log("Benar");
             isDisabled1 = true;
